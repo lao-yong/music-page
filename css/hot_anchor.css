@@ -1,0 +1,39 @@
+.lst{
+    padding-top: 3px;
+}
+.lst .ite{
+    display: flex;
+    padding: 10px 5px;
+    width: 210px;
+    height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+   
+    
+}
+
+
+
+.lst .ite .inf .desc{
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    font-size: 12px;
+
+}
+.lst .ite .inf .singer{
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 1px;
+    font-size: 12px;
+ 
+}
+.lst .ite .inf .singer:hover{
+    text-decoration: underline;
+}
+.lst .ite img{
+    width: 40px;
+    height: 40px;
+}

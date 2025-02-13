@@ -1,0 +1,125 @@
+.footer{
+    height: 325px;
+    border-top: 1px solid #d3d3d3;
+    background-color: #f2f2f2;
+}
+.footer .icon-footer .list-footer{
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+    justify-content:space-between;
+   
+   
+}
+.footer .icon-footer .list-footer .item{
+    margin: 33px auto;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: url(../images/footer_sprite.png) no-repeat;
+}
+.footer .icon-footer .list-footer .title{
+    display: inline-block;
+    width: 100px;
+    margin-top: 60px;
+    margin-left: -26.5px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(0,0,0, 0.5);
+}
+.footer .icon-footer .list-footer .item-01{
+    background-position: -170px -5px;
+    background-size: 220px 220px;
+}
+.footer .icon-footer .list-footer .item-01:hover{
+    background-position: -5px -115px;
+}
+.footer .icon-footer .list-footer .item-02{
+    background-position:  -5px -170px;
+    background-size: 220px 220px;
+}
+.footer .icon-footer .list-footer .item-02:hover{
+    background-position: -60px -170px;
+}
+.footer .icon-footer .list-footer .item-03{
+    background-position:  -5px -60px;
+    background-size: 220px 220px;
+}
+.footer .icon-footer .list-footer .item-03:hover{
+    background-position: -60px -5px;
+}
+.footer .icon-footer .list-footer .item-04{
+  background-image: url(../images/footer_sprite02.png);
+  background-size: 45px;
+}
+.footer .icon-footer .list-footer .item-04:hover{
+   background-image: url(../images/footer_hovor_01.png) ;
+   background-size: 45px;
+}
+.footer .icon-footer .list-footer .item-05{
+    background-position:  -60px -60px;
+    background-size: 220px 220px;
+}
+.footer .icon-footer .list-footer .item-05:hover{
+    background-position:-115px -5px;
+}
+.footer .icon-footer .list-footer .item-06{
+    background-position:  -115px -115px;
+    background-size:220px 220px;
+}
+.footer .icon-footer .list-footer .item-06:hover{
+    background-position: -5px -5px;
+}
+.footer .icon-footer .list-footer .item-07{
+    background-image: url(../images/footer_sprite03.png);
+    background-size: 45px;
+}
+.footer .icon-footer .list-footer .item-07:hover{
+    background: url(../images/footer_hovor_02.png) no-repeat ;
+    background-size: 45px;
+  
+}
+.footer .icon-footer .list-footer .item-08{
+    background-position: -170px -115px;
+    background-size: 220px 220px;
+}
+.footer .icon-footer .list-footer .item-08:hover{
+    background-position: -60px -115px;
+}
+.footer .icon-footer .content{
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 60px;
+   
+}
+.footer .icon-footer .content .con{
+    color: #D9D9D9;
+    margin-right: 20px;
+  
+}
+.footer .icon-footer .content .cont{
+    color: #666;
+    padding-right: 14px;
+   
+}
+.footer .icon-footer .content .cont:hover{
+    text-decoration: underline;
+}
+.footer .icon-footer .footcont{
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.footer .icon-footer .footcont .item{
+    padding-top: 10px;
+}
+.footer .icon-footer .footcont .item .icon{
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    background-image: url(../images/foot_icon.png);
+}
